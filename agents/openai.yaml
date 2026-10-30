@@ -1,0 +1,15 @@
+interface:
+  display_name: Thẻ board game – Expressions françaises
+  short_description: Thẻ minh họa, mặt bìa, 10 thẻ trên A4 ngang
+  default_prompt: Dùng $creer-cartes-expressions để tạo hoặc chỉnh bộ thẻ thành ngữ
+    từ tài liệu nguồn, minh họa nghĩa đen, tạo mặt bìa in hai mặt và xuất PDF chất
+    lượng in 10 thẻ đều mỗi trang A4 ngang.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
